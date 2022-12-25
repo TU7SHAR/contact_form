@@ -163,6 +163,9 @@ input{
     border-radius: 10px;
     padding: 10px;
 }
+#eCell{
+   width: 30vw;
+}
 
 input:focus{
     border: transparent;
@@ -204,7 +207,8 @@ textarea:focus{
     }
 
     .container{
-        height: 45vh;
+        height: 55vh;
+        width: 90vw;
     }
 
     .sc span a{
@@ -251,5 +255,15 @@ textarea:focus{
             /* transform: rotate(-90deg); */
         }
     
+    }
+}
+
+@media screen and (max-width: 350px){
+    *{
+        font-size: 20px;
+    }
+
+    .container{
+        height: 65vh;
     }
 }
